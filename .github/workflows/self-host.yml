@@ -30,7 +30,7 @@ jobs:
     needs: update
     steps:
       - name: checkout new gh-pages
-        run: git clone https://github.com/SiewYan/academia.github.io.git --branch gh-pages --single-branch gh-pages
+        run: git clone https://github.com/Feynman-Technique/academia.github.io.git --branch gh-pages --single-branch gh-pages
 
       - name: downloads artifact
         uses: actions/download-artifact@v2
